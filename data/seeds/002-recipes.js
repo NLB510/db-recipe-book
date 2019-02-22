@@ -8,37 +8,37 @@ exports.seed = function(knex, Promise) {
       return knex("recipes").insert([
         {
           id: 1,
-          dish_name: "Tex Tacos",
+          recipe_name: "Tex Tacos",
           dish_id: 1,
           instructions: "Testing instruction"
         },
         {
           id: 2,
-          dish_name: "Cheese Pizza",
+          recipe_name: "Cheese Pizza",
           dish_id: 2,
           instructions: "Testing instruction"
         },
         {
           id: 3,
-          dish_name: "Baked Salmon",
+          recipe_name: "Baked Salmon",
           dish_id: 3,
           instructions: "Testing instruction"
         },
         {
           id: 4,
-          dish_name: "Seattle Tacos",
+          recipe_name: "Seattle Tacos",
           dish_id: 1,
           instructions: "Testing instruction"
         },
         {
           id: 5,
-          dish_name: "Pepperoni Pizza",
+          recipe_name: "Pepperoni Pizza",
           dish_id: 2,
           instructions: "Testing instruction"
         },
         {
           id: 6,
-          dish_name: "Pan Fried Salmon",
+          recipe_name: "Pan Fried Salmon",
           dish_id: 3,
           instructions: "Testing instruction"
         }
